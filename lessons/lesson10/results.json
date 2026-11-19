@@ -1,0 +1,72 @@
+{
+ "n_samples": 2000,
+ "min_support": 0.005,
+ "stats": {
+  "baskets": 2000,
+  "items written": 19414,
+  "share not in catalogue": 0.05470279179973215,
+  "share repeated": 0.009683733388276501,
+  "baskets cut off": 0.0335,
+  "mean items per basket": 9.082
+ },
+ "model_recovery": [
+  {
+   "band": "0.50% to 1.00%",
+   "label": null,
+   "true": 1256,
+   "found": 433,
+   "recall": 0.3447452229299363
+  },
+  {
+   "band": "1.00% to 2.00%",
+   "label": null,
+   "true": 306,
+   "found": 221,
+   "recall": 0.7222222222222222
+  },
+  {
+   "band": "2.00% to 5.00%",
+   "label": null,
+   "true": 59,
+   "found": 59,
+   "recall": 1.0
+  },
+  {
+   "band": "5.00% to 100.00%",
+   "label": null,
+   "true": 126,
+   "found": 77,
+   "recall": 0.6111111111111112
+  }
+ ],
+ "ceiling_recovery": [
+  {
+   "band": "0.50% to 1.00%",
+   "label": null,
+   "true": 1256,
+   "found": 1022,
+   "recall": 0.8136942675159236
+  },
+  {
+   "band": "1.00% to 2.00%",
+   "label": null,
+   "true": 306,
+   "found": 306,
+   "recall": 1.0
+  },
+  {
+   "band": "2.00% to 5.00%",
+   "label": null,
+   "true": 59,
+   "found": 59,
+   "recall": 1.0
+  },
+  {
+   "band": "5.00% to 100.00%",
+   "label": null,
+   "true": 126,
+   "found": 126,
+   "recall": 1.0
+  }
+ ]
+}

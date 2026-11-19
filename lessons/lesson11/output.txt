@@ -1,0 +1,18 @@
+method                                         MRR (95% range)  hits@10  hits@50
+popularity (ignores the basket)          0.124 (0.066 to 0.196)      25%      45%
+counting item-to-item                    0.225 (0.139 to 0.332)      33%      45%
+counting item-to-item with lift          0.128 (0.058 to 0.218)      13%      20%
+trained model, lift alpha 0.0            0.163 (0.089 to 0.251)      25%      43%
+trained model, lift alpha 0.5            0.164 (0.085 to 0.259)      18%      42%
+trained model, lift alpha 1.0            0.046 (0.008 to 0.104)       7%      10%
+
+what each method suggests for one basket (hidden item in brackets):
+  basket: Crunch Club Instant Noodles Rs 5 pack, Garlic 500 g, Kaveri Valley Salt 1 kg, Nandini Pure Curd 500 g, Onion 1 kg ...
+  hidden: Kaveri Valley Wheat Flour (Atta) 1 kg
+  counting with lift           Amrit Kalash Vanaspati 5 kg; Ghar Ghar Tissue Roll pack of 4; Tulsi Tara Talcum Powder 50 g
+                               repeats a product already in the basket: 0%
+  trained model, lift alpha 1  Amrit Kalash Vanaspati 5 kg; Sundar Sutra Toothbrush pack of 3; Ginger 500 g
+                               repeats a product already in the basket: 0%
+
+choosing among the brands and pack sizes of the right product (59 cases with several variants):
+  the model ranks the right variant first in 46% of cases (guessing at random: 22%); median rank 2

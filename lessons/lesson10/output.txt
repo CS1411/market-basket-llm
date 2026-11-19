@@ -1,0 +1,37 @@
+wrote 2000 baskets in 1591 s
+  baskets: 2000
+  items written: 19414
+  share not in catalogue: 0.055
+  share repeated: 0.010
+  baskets cut off: 0.034
+  mean items per basket: 9.082
+
+true itemsets with support >= 0.5%: 1,747
+the model's baskets: 1,153 frequent itemsets; 2000 real baskets: 2,320
+
+recovered from the model's baskets, by true support
+        true support   true  found  recall
+      0.50% to 1.00%   1256    433     34%
+      1.00% to 2.00%    306    221     72%
+      2.00% to 5.00%     59     59    100%
+    5.00% to 100.00%    126     77     61%
+
+ceiling: recovered from 2000 real baskets
+        true support   true  found  recall
+      0.50% to 1.00%   1256   1022     81%
+      1.00% to 2.00%    306    306    100%
+      2.00% to 5.00%     59     59    100%
+    5.00% to 100.00%    126    126    100%
+
+precision (of what the model calls frequent, the share that truly is): 69%  (ceiling 65%)
+support error on shared itemsets: mean -0.0021, mean absolute 0.0052
+
+the 32 planted itemsets, by target support and kind (found in the model's baskets / in the ceiling):
+  support  5.00% natural    1/4 (ceiling 4/4)
+  support  5.00% surprising 1/4 (ceiling 4/4)
+  support  1.00% natural    1/4 (ceiling 4/4)
+  support  1.00% surprising 0/4 (ceiling 4/4)
+  support  0.20% natural    0/4 (ceiling 0/4)
+  support  0.20% surprising 0/4 (ceiling 0/4)
+  support  0.05% natural    0/4 (ceiling 0/4)
+  support  0.05% surprising 0/4 (ceiling 0/4)
