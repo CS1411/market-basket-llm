@@ -1,0 +1,12 @@
+60 cases, 1000 candidates each; random guessing would give MRR about 0.0075
+
+popularity (ignores the basket)    MRR 0.124 (0.066 to 0.196)  median rank 82  hits@1 7%  hits@10 25%  hits@50 45%
+  scored 10/60 cases
+  scored 20/60 cases
+  scored 30/60 cases
+  scored 40/60 cases
+  scored 50/60 cases
+  scored 60/60 cases
+scored in 830 s
+
+SmolLM2-135M, off the shelf        MRR 0.045 (0.017 to 0.087)  median rank 397  hits@1 2%  hits@10 8%  hits@50 32%

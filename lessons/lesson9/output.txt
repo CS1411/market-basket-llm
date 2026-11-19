@@ -1,0 +1,20 @@
+step 0    val loss 3.479
+step 50   train loss 1.297  val loss 0.655  203 tokens/s
+step 100  train loss 0.645  val loss 0.620  212 tokens/s
+step 150  train loss 0.618  val loss 0.591  216 tokens/s
+step 200  train loss 0.598  val loss 0.581  219 tokens/s
+step 250  train loss 0.589  val loss 0.575  219 tokens/s
+step 300  train loss 0.577  val loss 0.568  219 tokens/s
+
+validation loss 3.479 -> 0.568 (perplexity 32.4 -> 1.8); 523,222 tokens in 40 min
+  scored 10/60 cases
+  scored 20/60 cases
+  scored 30/60 cases
+  scored 40/60 cases
+  scored 50/60 cases
+  scored 60/60 cases
+scored the same 60 cases in 856 s
+
+                               MRR  hits@10  hits@50
+off the shelf (Lesson 8)     0.045       8%      32%
+after pretraining            0.163      25%      43%   MRR range 0.089 to 0.251
