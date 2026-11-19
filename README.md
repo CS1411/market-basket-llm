@@ -17,8 +17,8 @@ Reading: [Fast Algorithms for Mining Association Rules (Agrawal & Srikant, 1994)
 - [x] Lesson 9 - Continued Pretraining
 - [x] Lesson 10 - Probe the Model
 - [x] Lesson 11 - From Itemsets to Cross-sell and Upsell
-- [ ] Completion test
-- [ ] Project
+- [x] Completion test (passed on askThili)
+- [x] Project: [supply-co-usage-insight](https://github.com/CS1411/supply-co-usage-insight)
 
 ## Results (this repo's own runs, 60 test cases)
 
