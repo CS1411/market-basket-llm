@@ -1,0 +1,7 @@
+100,000 baskets; different items per basket: mean 8.01, median 7, max 40; lines per basket: mean 10.25
+example basket: ['Nandini Pure Curd 500 g', 'Chatpata Potato Chips Rs 5 pack', 'Little Lotus Batteries (AA) pack of 4'] ...
+quantity per item: {1: '80.1%', 2: '13.9%', 3: '4.1%', 4: '2.0%'}
+
+most common item: Onion 1 kg in 10.8% of baskets
+the most common pair among the top 30 meets by chance in 1.31% of baskets: Onion 1 kg + Potato 1 kg
+same seed, same baskets: True

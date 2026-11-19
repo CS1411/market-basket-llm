@@ -1,0 +1,37 @@
+32 itemsets: sizes [2, 3, 4, 5], supports [0.05, 0.01, 0.002, 0.0005], kinds ['natural', 'surprising']
+
+size kind         target  realised  items
+   2 natural       5.00%    5.086%  Crunchy.. + Gokul..
+   2 surprising    5.00%    5.000%  Masala.. + Crunchy..
+   3 natural       5.00%    5.000%  Kaveri.. + Maitri.. + Golden..
+   3 surprising    5.00%    5.000%  Brew.. + Kids.. + Ghar..
+   4 natural       5.00%    5.002%  Surya.. + Chai.. + Surya.. + Golden..
+   4 surprising    5.00%    5.000%  Crunch.. + Shuddh.. + Tiny.. + Maitri..
+   5 natural       5.00%    5.000%  Onion.. + Tomato.. + Green.. + Ginger.. + Garlic..
+   5 surprising    5.00%    5.000%  Kids.. + Shubham.. + Okra.. + Surya.. + Nandini..
+   2 natural       1.00%    1.000%  Brew.. + Chai..
+   2 surprising    1.00%    1.000%  Rasoi.. + Rupa..
+   3 natural       1.00%    1.011%  Amulya.. + Crunchy.. + Gokul..
+   3 surprising    1.00%    1.000%  Brinjal.. + Chai.. + Kesari..
+   4 natural       1.00%    1.000%  Brew.. + Amulya.. + Crunchy.. + Baker's..
+   4 surprising    1.00%    1.000%  Munch.. + Kesari.. + Rupa.. + Surya..
+   5 natural       1.00%    1.000%  Annadata.. + Rasoi.. + Suryamukhi.. + Onion.. + Nandini..
+   5 surprising    1.00%    1.000%  Pragati.. + Shuddh.. + Gokul.. + Suryamukhi.. + Baker's..
+   2 natural       0.20%    0.200%  Shuddh.. + Ghar..
+   2 surprising    0.20%    0.200%  Annadata.. + Munch..
+   3 natural       0.20%    0.200%  Masala.. + Swad.. + Masala..
+   3 surprising    0.20%    0.200%  Crunchy.. + Rasoi.. + Sip..
+   4 natural       0.20%    0.200%  Chatpata.. + Munch.. + Chai.. + Tasty..
+   4 surprising    0.20%    0.200%  Annadata.. + Baker's.. + Tiny.. + Kaveri..
+   5 natural       0.20%    0.200%  Morning.. + Amulya.. + Banana.. + Sunrise.. + Crunchy..
+   5 surprising    0.20%    0.200%  Glow.. + Amrit.. + Maitri.. + Golden.. + Annadata..
+   2 natural       0.05%    0.050%  Glow.. + Rupa..
+   2 surprising    0.05%    0.050%  Swad.. + Surya..
+   3 natural       0.05%    0.050%  Pure.. + Rupa.. + Sundar..
+   3 surprising    0.05%    0.050%  Dhara.. + Shuddh.. + Kids..
+   4 natural       0.05%    0.050%  Chatpata.. + Golden.. + Curry.. + Tadka..
+   4 surprising    0.05%    0.050%  Crunch.. + Shubham.. + Masala.. + Baker's..
+   5 natural       0.05%    0.050%  Shuddh.. + Sparkle.. + Ghar.. + Shuddh.. + Sparkle..
+   5 surprising    0.05%    0.050%  Kaveri.. + Golden.. + Shubham.. + Gokul.. + Little..
+
+largest relative gap between realised and target support: 2%

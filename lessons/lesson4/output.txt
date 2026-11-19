@@ -1,0 +1,10 @@
+planting: ('Kaveri Valley Toor Dal 1 kg', 'Surya Grains Sona Masoori Rice 5 kg', 'Dhara Fresh Sunflower Oil 1 L')
+support by chance before planting: 0.0030%
+support after planting at 1%:      1.0000%  (1000 baskets, exactly)
+the original baskets are untouched; a copy is returned: True
+  a part of 2 items has support 1.042% (at least the whole's)
+  a part of 2 items has support 1.108% (at least the whole's)
+  a part of 2 items has support 1.035% (at least the whole's)
+too common to plant: ValueError: 1309 baskets already hold this itemset by chance, more than the 10 asked for: it is too co
+not in the catalogue: ValueError: not in the catalogue: ['nope']
+two SKUs of one product: ValueError: a planted itemset needs different products: two of these are the same item or product

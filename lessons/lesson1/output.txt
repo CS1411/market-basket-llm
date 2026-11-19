@@ -1,0 +1,30 @@
+127 products in 12 categories
+brands_per_product=1:   305 possible SKUs
+brands_per_product=2:   579 possible SKUs
+brands_per_product=4: 1,127 possible SKUs
+brands_per_product=6: 1,565 possible SKUs
+
+1,000 items in the catalogue; every name unique: True
+  Item(name='Kaveri Valley Basmati Rice 500 g', base='Basmati Rice', category='Staples', brand='Kaveri Valley', size='500 g')
+  Item(name='Kaveri Valley Basmati Rice 1 kg', base='Basmati Rice', category='Staples', brand='Kaveri Valley', size='1 kg')
+  Item(name='Kaveri Valley Basmati Rice 5 kg', base='Basmati Rice', category='Staples', brand='Kaveri Valley', size='5 kg')
+
+SKUs per category:
+  Spices                     139
+  Staples                    124
+  Pulses                     107
+  Personal Care              106
+  Snacks and Instant Food     99
+  Beverages                   84
+  Oils and Ghee               75
+  Household and Cleaning      74
+  Bakery and Breakfast        61
+  Dairy and Eggs              56
+  Baby and Stationery         47
+  Fresh Produce               28
+
+SKUs per product: fewest 1, median 8, most 12
+loose goods with no brand: 28 SKUs
+sachets and small rupee packs: 116 SKUs
+n_items=5000: ValueError: only 1127 SKUs are possible with brands_per_product=4; ask for fewer items or raise brands_per_product
+n_items=100: ValueError: need at least 127 items to cover every product, got 100

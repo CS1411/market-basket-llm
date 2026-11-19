@@ -1,0 +1,30 @@
+shares add up to 1.000000
+
+Kaveri Valley Toor Dal 1 kg
+  category share 0.0792   Pulses is 7.9% of the shop's sales
+  product share  0.2899   Toor Dal is 29.0% of Pulses
+  brand share    0.3226   Kaveri Valley is 32.3% of the Toor Dal that is stocked
+  size share     0.5455   1 kg is 54.5% of Kaveri Valley Toor Dal
+  SKU share      0.00404 = 0.40% of all sales
+
+the ten best sellers:
+  Onion 1 kg                          1.41%
+  Potato 1 kg                         1.32%
+  Tomato 1 kg                         1.32%
+  Gokul Fresh Milk 500 ml             1.27%
+  Coriander Leaves bunch              1.19%
+  Surya Grains Toor Dal 1 kg          1.18%
+  Onion 500 g                         1.13%
+  Potato 500 g                        1.05%
+  Tomato 500 g                        1.05%
+  Kaveri Valley Salt 1 kg             1.02%
+best seller / slowest seller: 541 to 1
+top   1% of SKUs ( 10 items) make 12% of sales
+top   5% of SKUs ( 50 items) make 34% of sales
+top  10% of SKUs (100 items) make 47% of sales
+top  20% of SKUs (200 items) make 64% of sales
+top  50% of SKUs (500 items) make 88% of sales
+114 SKUs make half the sales, 365 make 80%
+
+116 sachet and rupee-pack SKUs (11.6% of the catalogue) make 11.8% of sales
+Surya Grains pulses 3.66% -> 4.78%; Toor Dal as a whole 2.30% -> 2.30% (unchanged: levels are normalised separately)

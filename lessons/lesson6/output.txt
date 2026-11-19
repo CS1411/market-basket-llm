@@ -1,0 +1,17 @@
+six baskets, min support 0.5: {'bread': 0.5, 'milk': 0.5, 'sugar': 0.5, 'sugar + tea': 0.5, 'tea': 0.67}
+
+generated the dataset and mined the exact truth in 16 s
+on 3,000 baskets at 1%: plain 10.75 s, bitsets 0.027 s, identical: True
+
+100,000 baskets, 32 planted itemsets, min support 0.05%
+exact truth: 56,470 frequent itemsets
+  by label: {'single': 977, 'part': 303, 'planted': 32, 'chance': 23256, 'extension': 31902}
+  by size:  {1: 977, 2: 18237, 3: 16528, 4: 13052, 5: 7676}
+  all 32 of 32 planted itemsets are in the truth
+
+the strongest rules (by lift):
+  Sparkle Home Garbage Bags pack of 30 + Spark -> Ghar Ghar Floor Cleaner 2 L + Shuddh Deterge  conf 94% lift 1850
+  Ghar Ghar Floor Cleaner 2 L + Shuddh Deterge -> Sparkle Home Garbage Bags pack of 30 + Spark  conf 98% lift 1850
+  Golden Drop Rice Bran Oil 1 L + Kaveri Valle -> Gokul Fresh Eggs 6 pack + Little Lotus Diape  conf 96% lift 1849
+
+saved to data/dataset/ (git-ignored)
